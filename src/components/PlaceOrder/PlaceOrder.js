@@ -130,7 +130,7 @@ const PlaceOrder = () => {
 
 
                     {errors.exampleRequired && <span>This field is required</span>}
-                    <input class="btn btn-success" type="submit" />
+                    <p className="text-center mt-5"><input class="btn btn-success" type="submit" /></p>
                 </form>
             </div>
         </div>
