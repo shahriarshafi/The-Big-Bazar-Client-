@@ -162,7 +162,7 @@ const Admin = () => {
                 <Divider />
                 <List>
                     <ListItem >
-                        <Link to="/home"><Typography variant="h4">The Big Bazar</Typography></Link>
+                        <Link to="/home"><Typography className={{display:"inline-block"}} variant="h6">Dhamaka Shopping</Typography></Link>
                     </ListItem>
                     <ListItem button>
                         <ListItemIcon>

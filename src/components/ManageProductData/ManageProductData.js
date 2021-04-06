@@ -138,7 +138,7 @@ const ManageProductData = () => {
                 <Divider />
                 <List>
                     <ListItem >
-                        <Link to="/home"><Typography variant="h4">Dhamaka Shopping</Typography></Link>
+                        <Link to="/home"><Typography variant="h6" className={{display:"inline-block"}}>Dhamaka Shopping</Typography></Link>
                     </ListItem>
                     <ListItem button>
                         <ListItemIcon>
@@ -173,7 +173,7 @@ const ManageProductData = () => {
                                             <th scope="col">Product Name</th>
                                             <th scope="col">Price</th>
                                             <th scope="col">Weight</th>
-                                            <th scope="col">Handle</th>
+                                            <th scope="col">Action</th>
                                         </tr>
                                     </thead>
                                     {
