@@ -47,7 +47,7 @@ const Header = () => {
                                 <Link to="/login"><button class="btn btn-outline-success" type="submit">Login</button></Link>
                             }
                             {
-                                user ? <Link to="/home"><button className="btn btn-danger" onClick={handleSignOut}>Sign Out</button></Link> :
+                                user ? <Link to="/"><button className="btn btn-danger" onClick={handleSignOut}>Sign Out</button></Link> :
                                 <button style={{display : "none"}}>Sign Out</button>
                             }
                         </form>

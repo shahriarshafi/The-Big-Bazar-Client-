@@ -21,7 +21,7 @@ const CheckOut = () => {
 
     console.log(products)
     useEffect(() => {
-        fetch('hhttps://dry-brook-88096.herokuapp.com/product')
+        fetch('https://dry-brook-88096.herokuapp.com/product')
             .then(res => res.json())
             .then(data => setProducts(data))
     } , [])
