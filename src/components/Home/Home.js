@@ -9,7 +9,7 @@ const Home = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5500/product')
+        fetch('https://dry-brook-88096.herokuapp.com/product')
             .then(res => res.json())
             .then(data => setProducts(data))
     })

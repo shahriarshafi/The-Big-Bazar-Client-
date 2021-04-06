@@ -50,7 +50,7 @@ const PlaceOrder = () => {
         };
         console.log(orderData)
 
-        const url = `http://localhost:5500/orderDetails`;
+        const url = `https://dry-brook-88096.herokuapp.com/orderDetails`;
         fetch(url, {
             method: 'POST',
             headers: {

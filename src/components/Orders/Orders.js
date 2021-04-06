@@ -13,7 +13,7 @@ const Orders = () => {
     const [orders, setOrders] = useState([]);
     console.log(loggedInUser)
     useEffect(() => {
-        fetch('http://localhost:5500/orders?email=' + loggedInUser.email)
+        fetch('https://dry-brook-88096.herokuapp.com/orders?email=' + loggedInUser.email)
             .then(res => res.json())
             .then(data => setOrders(data))
     }, [])

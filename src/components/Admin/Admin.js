@@ -115,7 +115,7 @@ const Admin = () => {
             price: data.price
         };
         console.log(eventData);
-        const url = `http://localhost:5500/addProduct`;
+        const url = `https://dry-brook-88096.herokuapp.com/addProduct`;
         fetch(url,{
             method: 'POST',
             headers:{

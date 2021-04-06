@@ -33,8 +33,8 @@ const ManageProduct = ({ product , products , setProducts }) => {
 
   console.log(product);
   const deleteEvent = (id) => {
-    // const url = `http://localhost:5500/deleteEvent/${id}`;
-    fetch(`http://localhost:5500/deleteEvent/${id}`, {
+    // const url = `https://dry-brook-88096.herokuapp.com/deleteEvent/${id}`;
+    fetch(`https://dry-brook-88096.herokuapp.com/deleteEvent/${id}`, {
       method: 'DELETE',
     })
       .then(res => res.json())
